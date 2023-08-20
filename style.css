@@ -199,15 +199,19 @@ ul li:hover ul.dropdown{
     background-color:#777;
 }
 
-.background-image{
+.background{
     background-image:url(Images/mountain-background.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    position:relative; 
     height:100vh;
    }
 .logo{
     height: 50px;
     width:auto;
+}
+.container logo{
+    position: absolute;
 }
 .subheading{
     text-align: center;
